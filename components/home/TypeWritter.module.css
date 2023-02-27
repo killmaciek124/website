@@ -1,0 +1,13 @@
+.wrapper {
+    /* position: relative; */
+    padding-top: 15vh;
+    font-size: 40px;
+}
+
+.writer, .h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
