@@ -1,0 +1,50 @@
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: #1f2327;
+    border-radius: 5px;
+    height: auto;
+    font-size: 14px;
+    z-index: 1000000000;
+
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: lightgrey;
+}
+.navbar label {
+    color: white;
+    font-size: 175%;
+    
+}
+
+.navbar label:hover {
+    color: lightgrey;
+}
+.menu {
+    width: 100%;
+    height: auto;
+}
+.list {
+    list-style: none;
+    gap: 25px;
+}
+
+.list li {
+    margin: 2.5rem 0 ;
+    display: flex;
+    justify-content: center;
+}
