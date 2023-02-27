@@ -1,0 +1,24 @@
+.wrapper {
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 100px;
+}
+
+.wrapper h1 {
+    color: #0087ca
+}
+
+.wrapper p {
+    color: white
+}
+
+.link {
+    color: white;
+}
+
+
+
