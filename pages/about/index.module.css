@@ -1,0 +1,56 @@
+.wrapper {
+    padding-top: 20vh;
+    margin: 1vh 10vw;
+    
+    
+}
+.wrapper h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+}
+.content {
+    display: flex;
+    padding-top: 5vh;
+    border-top: 1px solid white;
+    margin: 5vh 0;
+    height: 200vh;
+    color: white;
+
+}
+
+.profile {
+    width: 30%;
+    line-height: 30px;
+    padding: 0 4%;
+
+   
+}
+ .titles p {
+    display: flex;
+    justify-content: center;
+ }
+.profile Image {
+    display: flex;
+    justify-content: center;
+}
+.profile h3 {
+    display: flex;
+    justify-content: center;
+}
+.description {
+    width: 70%;
+    line-height: 40px;
+    padding-left: 20px;
+
+
+}
+.description p a {
+    color: #0087ca;
+}
+.img {
+    
+    border-radius: 200px;
+    width: 100%;
+    height: auto;
+}
