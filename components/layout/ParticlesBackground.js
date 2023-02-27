@@ -1,4 +1,3 @@
-import classes from "./ParticlesBackground.module.css";
 import Particles from "react-tsparticles";
 import particlesConfig from "../config/particles-config";
 import { loadFull } from "tsparticles";
@@ -12,13 +11,7 @@ const ParticlesBackground = () => {
     await loadFull(main);
   };
 
-  return (
-    <Particles
-      className={classes.particles}
-      init={particlesInit}
-      params={particlesConfig}
-    ></Particles>
-  );
+  return <Particles init={particlesInit} params={particlesConfig}></Particles>;
 };
 
 export default ParticlesBackground;

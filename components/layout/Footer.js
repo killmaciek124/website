@@ -10,13 +10,22 @@ const Footer = (props) => {
         <a
           href="https://www.linkedin.com/in/maciej-maziuk-120ab1242/"
           target="_blank"
+          rel="noreferrer"
         >
           <BsLinkedin />
         </a>
-        <a href="https://github.com/killmaciek124" target="_blank">
+        <a
+          href="https://github.com/killmaciek124"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsGithub />
         </a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+        <a
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsYoutube />
         </a>
       </section>
