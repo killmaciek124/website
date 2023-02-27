@@ -1,0 +1,18 @@
+.wrapper {
+    padding-top: 15vh;
+    margin: 1vh 10vw;
+    
+    
+}
+.wrapper h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+}
+.content {
+    border-top: 1px solid white;
+    margin: 5vh 0;
+    height: 110vh;
+}
+
+
