@@ -9,8 +9,8 @@ const Footer = (props) => {
       <section className={classes.links}>
         <a
           href="https://www.linkedin.com/in/maciej-maziuk-120ab1242/"
-          target="_blank"
-          rel="noreferrer"
+          target="_blank" // new page
+          rel="noreferrer" // safety issues
         >
           <BsLinkedin />
         </a>
