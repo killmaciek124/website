@@ -1,29 +1,34 @@
 .wrapper {
     margin: 3%;
-   
-    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
 }
 .wrapper h2 {
     margin-top: 1%;
     color: white;
+    font-size: 100%;
 
     
 }
+.wrapper h2:hover {
+  color: lightblue;
+  cursor: pointer;
+
+}
 .container {
-    width: 20rem;
-    height: 20rem;
+    width: 100%;
+    height: 100%;
     position: relative;
   }
 
   
-   .img, .button{
-   
-    position: absolute;
-    top: 0;
-    left: 0;
+   .img {
+    cursor: pointer;    
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 
   .img:hover {
@@ -31,19 +36,11 @@
 
 }
 
-    .button {
-    z-index: 10;
-
-    }
-  .button:hover {
-    opacity: 85%;
-    background-color: black;
-    transition: 0.3s;
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+   
+/*MOBILES*/
+@media (max-width: 700px) {
+  .wrapper h2 {
+    font-size: 0.5em;
   }
+
+}

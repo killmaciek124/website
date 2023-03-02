@@ -122,8 +122,40 @@ a {
 
 html,
 body {
-  max-width: 100vw;
-  min-width: 320px;
-  background-color: #234E70;
 
-}
+  background-color: #234E70;
+  /*max-width: 5000px; margin: auto + max-width daje rowne marginy po bokach*/
+  /* margin: auto; */
+  /* height: 100%; */
+  /* /* max-width: 100%; */
+  /* min-height: 100vh;
+  margin: 0 auto;  */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+} 
+
+
+
+
+  /*ROZDZIAŁKI DOBRE:*/
+  /* Tablet and Smaller Desktop */
+  @media (min-width: 701px) and (max-width: 1120px) {
+  }
+
+  /* Mobile */
+@media (max-width: 700px) {}
+ 
+
+
+
+  /* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {}
+  
+
+
+/*
+idk co to niech zostanie narazie
+@media (min-width: 640px) { body {font-size:1rem;} }
+@media (min-width:960px) { body {font-size:1.2rem;} }
+@media (min-width:1100px) { body {font-size:1.5rem;} } */

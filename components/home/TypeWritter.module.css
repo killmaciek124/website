@@ -1,7 +1,9 @@
+/*DONE WITH MEDIA QUERIES*/
+
 .wrapper {
-    /* position: relative; */
-    padding-top: 15vh;
-    font-size: 40px;
+    padding-top: 10%;
+    font-size: 3.5rem;
+    height: 100%;
 }
 
 .writer, .h1 {
@@ -11,3 +13,11 @@
     color: white;
     
 }
+
+/*MOBILES*/
+@media (max-width: 700px) {
+    .writer, .h1 {
+        font-size: 0.7em;
+    }
+
+ }

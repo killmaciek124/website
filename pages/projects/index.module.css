@@ -1,18 +1,43 @@
 .wrapper {
-    padding-top: 15vh;
-    margin: 1vh 10vw;
+    padding-top: 5rem;
+    margin: 0.1rem 7rem;
+    font-size: 150%;
+    /* min-height: 110vh; */
     
     
 }
 .wrapper h1 {
-    font-weight: bolder;
-    font-size: 40px;
     color: white;
-}
-.content {
-    border-top: 1px solid white;
-    margin: 5vh 0;
-    height: 110vh;
+    font-weight: bolder;
+    font-size: 250%;
+    
 }
 
+
+ .content {
+    display: grid;
+    margin-top: 4rem;
+    border-top: 1px solid white;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 0.5rem;
+
+ }
+
+ .project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ @media (max-width: 700px) {
+
+    .wrapper {
+        margin: 0.1rem 2.5rem;
+    }
+    
+    .wrapper h1 {
+        font-size: 160%;
+    }
+
+ }
 
