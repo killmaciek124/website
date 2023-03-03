@@ -1,7 +1,13 @@
 import TypeWritter from "@/components/home/TypeWritter";
 import ParticlesBackground from "@/components/layout/ParticlesBackground";
 import Head from "next/head";
-import Footer from "@/components/layout/Footer";
+import classes from "./index.module.css";
+import {
+  BsArrowDownCircle,
+  BsLinkedin,
+  BsGithub,
+  BsYoutube,
+} from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -14,7 +20,36 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <TypeWritter />
-      <Footer class="footer" />
+      <div className={classes.arrow}>
+        <a href="#contentLinks">
+          <BsArrowDownCircle />
+        </a>
+      </div>
+      <div id="contentLinks" className={classes.contentLinks}>
+        {/* <section className={classes.links}> */}
+        <a
+          href="https://www.linkedin.com/in/maciej-maziuk-120ab1242/"
+          target="_blank" // new page
+          rel="noreferrer" // safety issues
+        >
+          <BsLinkedin />
+        </a>
+        <a
+          href="https://github.com/killmaciek124"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsGithub />
+        </a>
+        <a
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsYoutube />
+        </a>
+        {/* </section> */}
+      </div>
     </>
   );
 }
