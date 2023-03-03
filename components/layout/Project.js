@@ -23,12 +23,14 @@ const Project = (props) => {
   return (
     <div className={classes.wrapper}>
       <div className={classes.container}>
-        <div onClick={seeMoreButtonHandler} className={classes.button}>
-          See more
-        </div>
-        <Image className={classes.img} src={props.img} alt={props.alt} />
+        <Image
+          onClick={seeMoreButtonHandler}
+          className={classes.img}
+          src={props.img}
+          alt={props.alt}
+        />
       </div>
-      <h2>{props.title}</h2>
+      <h2 onClick={seeMoreButtonHandler}>{props.title}</h2>
     </div>
   );
 };

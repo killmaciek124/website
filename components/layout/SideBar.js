@@ -21,14 +21,20 @@ const SideBar = () => {
       <div className={classes.menu}>
         <ul className={classes.list}>
           <li>
-            <Link href="/">Home</Link>
+            <Link onClick={onHideBarHandler} href="/">
+              Home
+            </Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link onClick={onHideBarHandler} href="/about">
+              About
+            </Link>
           </li>
 
           <li>
-            <Link href="/projects">Projects</Link>
+            <Link onClick={onHideBarHandler} href="/projects">
+              Projects
+            </Link>
           </li>
         </ul>
       </div>
