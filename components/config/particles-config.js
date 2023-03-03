@@ -5,7 +5,7 @@ const particlesConfig = {
       value: 80,
       density: {
         enable: true,
-        value_area: 800,
+        value_area: 1500, // density values: 800-medium, 300-high, 1600-low
       },
     },
     color: {
@@ -31,7 +31,7 @@ const particlesConfig = {
       random: false,
       anim: {
         enable: false,
-        speed: 0.1, // 1
+        speed: 0.1,
         opacity_min: 0.1,
         sync: false,
       },
@@ -41,7 +41,7 @@ const particlesConfig = {
       random: true,
       anim: {
         enable: false,
-        speed: 40, //40
+        speed: 40,
         size_min: 0.1,
         sync: false,
       },
@@ -49,13 +49,13 @@ const particlesConfig = {
     line_linked: {
       enable: true,
       distance: 150,
-      color: "#ffffff", // "#ffffff" LIGHTMODE DARKMODE // color of the elements
+      color: "#ffffff", // color of the elements
       opacity: 0.4,
       width: 1,
     },
     move: {
       enable: true,
-      speed: 2, // speed of the elements
+      speed: 0.8, // speed of the elements 1 (low)-10 (high)
       direction: "none",
       random: false,
       straight: false,
