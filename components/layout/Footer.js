@@ -31,9 +31,8 @@ const Footer = (props) => {
       </section>
       <ul className={classes.info}>
         <li>Maciej Maziuk</li>
-        <li>
-          <BiCopyright />
-          2023
+        <li className={classes.copyRight}>
+          <BiCopyright /> 2023
         </li>
         <li>Maziuk's Website</li>
       </ul>
