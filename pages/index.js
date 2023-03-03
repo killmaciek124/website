@@ -1,4 +1,3 @@
-import classes from "../styles/index.module.css";
 import TypeWritter from "@/components/home/TypeWritter";
 import ParticlesBackground from "@/components/layout/ParticlesBackground";
 import Head from "next/head";

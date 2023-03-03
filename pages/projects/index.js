@@ -8,13 +8,15 @@ const ProjectsPage = () => {
       <div className={classes.wrapper}>
         <h1>Projects</h1>
         <section className={classes.content}>
-          <Project
-            id="p1"
-            title="Cukiernia Maziuk"
-            img={logo}
-            alt="Logo of bakery"
-            description="This Website is currently under construction"
-          />
+          <div className={classes.project}>
+            <Project
+              id="p1"
+              title="Cukiernia Maziuk"
+              img={logo}
+              alt="Logo of bakery"
+              description="This Website is currently under construction"
+            />
+          </div>
         </section>
       </div>
       <Footer class="footerScroll" />
