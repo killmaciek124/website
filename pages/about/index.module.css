@@ -52,6 +52,7 @@
     display: flex;
     justify-content: center;
     font-size: 100%;
+    text-align: center;
 }
 
 .left .img {
@@ -70,10 +71,12 @@
     }
     .wrapper {
         width: 100%;
-        margin: 0;
+        margin: auto;
     }
     .wrapper h1 {
         font-size: 160%;
+        margin-left: 3%;
+
     }
  
     
@@ -89,7 +92,6 @@
         margin-top: 10%;
         padding: 0;
     }
-    /*na wszystko daj jeszcze padding 0 margin 0 na boki */
 
 
 

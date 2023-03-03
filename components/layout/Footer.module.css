@@ -36,6 +36,7 @@
 }
 .info li {
     margin: auto 1rem;
+    list-style: none;
 }
 .links a {
     color: white;
@@ -44,8 +45,14 @@
 }
 
 .links a:hover {
-    color: #0087ca
+    color: lightblue
 
+}
+
+.copyRight {
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
 }
 
 
