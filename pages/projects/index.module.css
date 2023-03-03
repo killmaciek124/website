@@ -2,7 +2,7 @@
     padding-top: 5rem;
     margin: 0.1rem 7rem;
     font-size: 150%;
-    /* min-height: 110vh; */
+    min-height: 110vh;
     
     
 }
@@ -33,6 +33,7 @@
 
     .wrapper {
         margin: 0.1rem 2.5rem;
+        min-height: 100vh;
     }
     
     .wrapper h1 {

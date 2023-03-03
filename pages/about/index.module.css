@@ -15,7 +15,9 @@
     color: white;
 }
 .content {
-    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
+
     font-size: 0.8em;
     padding-top: 4rem;
     border-top: 0.05em solid white;
@@ -26,7 +28,7 @@
 }
 
 .description {
-    width: 100%;
+    width: 60%;
     line-height: 160%;
     padding-left: 3rem;
 
@@ -38,11 +40,26 @@
 .profic {
     margin-top: 3rem;
 }
-/*small desktops*/
-  @media (min-width: 701px) and (max-width: 888px) {
 
+.left {
+    width: 40%;
+    padding: 0 10%;
 
-  }
+}
+
+.left .h3, .p {
+    line-height: 200%;
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+}
+
+.left .img {
+    max-width: 100%; /*SOLUTION FOR BIG PICTURES ON BIG SCREENS!!!*/
+    height: auto;
+    border-radius: 100%;
+
+}
 
 /*MOBILES*/
 
@@ -51,10 +68,30 @@
     .footer, .footerScroll{
         font-size: 0.7em;
     }
-
+    .wrapper {
+        width: 100%;
+        margin: 0;
+    }
     .wrapper h1 {
         font-size: 160%;
     }
+ 
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20% 0;
+
+    }
+    .description {
+        margin-top: 10%;
+        padding: 0;
+    }
+    /*na wszystko daj jeszcze padding 0 margin 0 na boki */
+
+
 
  }
 
