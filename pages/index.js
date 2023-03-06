@@ -26,7 +26,6 @@ export default function Home() {
         </a>
       </div>
       <div id="contentLinks" className={classes.contentLinks}>
-        {/* <section className={classes.links}> */}
         <a
           href="https://www.linkedin.com/in/maciej-maziuk-120ab1242/"
           target="_blank" // new page
@@ -48,7 +47,6 @@ export default function Home() {
         >
           <BsYoutube />
         </a>
-        {/* </section> */}
       </div>
     </>
   );
