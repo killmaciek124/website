@@ -24,10 +24,6 @@ This is my personal website that includes information about me, my hobbies, cont
 3. Start the development server using `npm run dev`
 4. Visit `http://localhost:3000` in your browser to view the website
 
-## Live Demo
-
-Check out the live demo of my website at [mywebsite.com](http://www.mywebsite.com)
-
 ## Contributions
 
 Contributions to the project are welcome! If you find a bug or have a suggestion for a new feature, feel free to submit an issue or create a pull request.
