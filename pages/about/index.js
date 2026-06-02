@@ -15,7 +15,7 @@ const AboutPage = () => {
               src={mypic}
               alt="picture of an author"
             />
-            <h3 className={classes.h3}>GPU System Software Engineer at Intel</h3>
+            <h3 className={classes.h3}>GPU System Software Engineer Intern at Intel</h3>
             <p className={classes.p}>Computer Science Student</p>
           </div>
           <div className={classes.description}>
