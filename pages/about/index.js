@@ -29,11 +29,10 @@ const AboutPage = () => {
             <br />
             <p>
               If you have any queries, don't hesitate to send me an{" "}
-              <a href="mailto: maciej@maziuk.com.pl">email</a> at
+              <a href="mailto:maciej@maziuk.com.pl">email</a> at
               maciej@maziuk.com.pl and I'll make every effort to reply promptly.
             </p>
             <br />
-            </div>
           </div>
         </section>
       </div>
