@@ -21,10 +21,12 @@ const AboutPage = () => {
           <div className={classes.description}>
             <p>
               Welcome to my Website! I'm Maciej Maziuk, a Computer Science
-              student. My place of origin is Poland. I
-              am interested in automation technologies. I have a deep curiosity for the fundamental building blocks of our world 
-              and technology—I love understanding things from first principles, whether its hardware or software. Outside of this, my hobbies are,
-              skydiving, speedcubing, sailing, volleyball and many other.
+              student. My place of origin is Poland. I am interested in
+              automation technologies. I have a deep curiosity for the
+              fundamental building blocks of our world and technology—I love
+              understanding things from first principles, whether it's hardware
+              or software. Outside of this, my hobbies are skydiving,
+              speedcubing, sailing, volleyball and many others.
             </p>
             <br />
             <p>
