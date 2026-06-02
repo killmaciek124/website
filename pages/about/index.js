@@ -15,16 +15,16 @@ const AboutPage = () => {
               src={mypic}
               alt="picture of an author"
             />
-            <h3 className={classes.h3}>Programmer</h3>
-            <p className={classes.p}>University of Gdańsk</p>
+            <h3 className={classes.h3}>GPU System Software Engineer at Intel</h3>
+            <p className={classes.p}>Computer Science Student</p>
           </div>
           <div className={classes.description}>
             <p>
               Welcome to my Website! I'm Maciej Maziuk, a Computer Science
-              student at University of Gdańsk. My place of origin is Poland. I
-              am interested in Web Development. I am open and curious about
-              other technologies. Outside of this, my hobbies are skateboarding,
-              skydiving, motorcycles, sailing and squash.
+              student. My place of origin is Poland. I
+              am interested in automation technologies. I have a deep curiosity for the fundamental building blocks of our world 
+              and technology—I love understanding things from first principles, whether its hardware or software. Outside of this, my hobbies are,
+              skydiving, speedcubing, sailing, volleyball and many other.
             </p>
             <br />
             <p>
@@ -33,24 +33,6 @@ const AboutPage = () => {
               maciej@maziuk.com.pl and I'll make every effort to reply promptly.
             </p>
             <br />
-            <div className={classes.profic}>
-              <h2>Proficiencies</h2>
-              <ul>
-                <ul>
-                  Languages
-                  <li>Python</li>
-                  <li>Scala (+Akka)</li>
-                  <li>JavaScript</li>
-                </ul>
-                <ul>
-                  Web Development
-                  <li>HTML, CSS</li>
-                  <li>React</li>
-                  <li>Next</li>
-                  <li>Node.js</li>
-                  <li>MongoDB</li>
-                </ul>
-              </ul>
             </div>
           </div>
         </section>
